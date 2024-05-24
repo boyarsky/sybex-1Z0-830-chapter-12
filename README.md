@@ -96,7 +96,7 @@ javac -p mods -d staff staff/zoo/staff/*.java staff/module-info.java
 ```
 Package:
 ```
-jar -cvf  mods/zoo.staff.jar -C staff/ .
+jar -cvf mods/zoo.staff.jar -C staff/ .
 ```
 
 # Diving into the module-info file
