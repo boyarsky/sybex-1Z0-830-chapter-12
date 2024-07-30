@@ -245,3 +245,11 @@ Create Java runtime image
 ```
 jlink --module-path mods --add-modules zoo.animal.talks --output zooApp
 ```
+
+# jpackage
+
+For module jar
+```
+jpackage --name feedingTask --module-path mods
+   --module zoo.animal.feeding/zoo.animal.feeding.Task
+```
